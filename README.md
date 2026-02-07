@@ -1,3 +1,3 @@
-# Backend Brainiac
+# Charismatic CI/CD
 
-## A complete collection of all type of backend runtime and frameworks
+## A curated collection of CI/CD examples and experiments using GitHub Actions, GitLab CI/CD, and Jenkins.
