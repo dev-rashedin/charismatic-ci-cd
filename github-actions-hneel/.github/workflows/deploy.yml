@@ -27,3 +27,4 @@ jobs:
       run: docker push ${{secrets.DOCKERHUB_USERNAME}}/next-js-app:latest
 
 
+
