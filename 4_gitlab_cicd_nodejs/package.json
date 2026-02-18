@@ -1,0 +1,19 @@
+{
+  "name": "4_gitlab_cicd_nodejs",
+  "version": "1.0.0",
+  "main": "server.js",
+  "author": "",
+  "description": "",
+  "scripts": {
+    "dev": "node --env-file=.env --watch server.js",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "express-error-toolkit": "^1.2.1",
+    "http-status-toolkit": "^2.0.0"
+  }
+}
