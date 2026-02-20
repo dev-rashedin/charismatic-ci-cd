@@ -18,12 +18,7 @@ app.get('/', (req, res) => {
   });
 });
 
-app.get('/health', (req, res) => {
-  res.status(StatusCodes.OK).json({
-    success: true,
-    message: 'Server is healthy',
-  });
-});
+
 
 // not found handler and global error handler
 app.use(notFoundHandler);
