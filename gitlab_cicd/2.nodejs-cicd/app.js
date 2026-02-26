@@ -1,7 +1,7 @@
 const express = require('express');
 const cors = require('cors');
-const { notFoundHandler, globalErrorHandler } = require('./node_modules/.pnpm/express-error-toolkit@1.2.1/node_modules/express-error-toolkit/dist/index.d.cts');
-const { StatusCodes } = require('./node_modules/.pnpm/http-status-toolkit@2.0.0/node_modules/http-status-toolkit/dist/index.d.cts');
+const { notFoundHandler, globalErrorHandler } = require('express-error-toolkit');
+const { StatusCodes } = require('http-status-toolkit');
 
 const app = express();
 
